@@ -29,7 +29,7 @@ $F1::{
 		;Spoms LMB to get through menus faster
 		startTime := A_TickCount
 		Loop {
-			FireWeapon()
+			SpamLeft()
 			Sleep 200
 		} Until (A_TickCount - startTime > spamTime)
 		ClearKeys()
@@ -116,10 +116,19 @@ FireWeapon(){
 	Sleep 5
 }
 
+SpamLeft(){
+	SendEvent "{LButton}"
+	Sleep 5
+	SendEvent "{LButton}"
+	Sleep 5
+}
+
 ClearKeys(){
 	SendInput "{w up}"
 	Sleep 5
 	SendEvent "{RButton up}"
+	Sleep 5
+	SendEvent "{LButton up}"
 	Sleep 5
 }
 
