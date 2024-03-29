@@ -155,7 +155,7 @@ ClearKeys(){
 	Sleep 5
 }
 
-$+esc::{
+$`::{
 	ClearKeys()
 	exitapp
 }
