@@ -72,9 +72,9 @@ GoToQuestCounterAndGetSlimepedeQuest(){
 	Sleep 50
 	SendEvent "{LButton up}"
 	Sleep 1500
-	SendEvent "{s Down}"
+	SendInput "{s Down}"
 	Sleep 50
-	SendEvent "{s up}"
+	SendInput "{s up}"
 	Sleep 1500
 	SendEvent "{LButton Down}"
 	Sleep 50
@@ -132,7 +132,7 @@ ClearKeys(){
 	Sleep 5
 }
 
-$`::{
+$+esc::{
 	ClearKeys()
 	exitapp
 }
