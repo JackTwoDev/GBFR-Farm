@@ -112,7 +112,7 @@ MoveCharacterAndShoot(){
 	Sleep 20
 	FireWeapon()
 
-  SendInput "{b down}"
+  	SendInput "{b down}"
 	Sleep 20
 	FireWeapon()
 	SendInput "{b up}"
