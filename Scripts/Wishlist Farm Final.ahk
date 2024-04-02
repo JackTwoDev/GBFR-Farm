@@ -2,7 +2,7 @@
 #Requires AutoHotkey v2.0
 
 ;Timings in miliseconds
-questTime := 660000
+questTime := 900000
 loadingTimeQuest := 7000 ;You might need to adjust this if your PC is loading the quest longer than 7 seconds
 loadingTimeTown := 10000 ;same with time for loading back into town, but the generous spam time should be okay with it
 spamTime := 15000
