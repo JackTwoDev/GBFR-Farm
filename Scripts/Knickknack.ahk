@@ -5,7 +5,7 @@
 
 $F1::{
 	loop{
-    #Open Knickknacks
+    ;Open Knickknacks
 	  SendEvent "{LButton Down}"
 	  Sleep 50
 	  SendEvent "{LButton up}"
@@ -15,7 +15,7 @@ $F1::{
 	  SendEvent "{LButton up}"
 	  Sleep 1500
 
-    #Sell Knickknacks
+    ;Sell Knickknacks
 	  SendInput "{Tab Down}"
 	  Sleep 50
 	  SendEvent "{Tab up}"
@@ -49,7 +49,7 @@ $F1::{
 	  SendEvent "{LButton up}"
 	  Sleep 1500
 
-    #Close Knickknack
+    ;Close Knickknack
 	  SendEvent "{RButton Down}"
 	  Sleep 50
 	  SendEvent "{RButton up}"
@@ -63,7 +63,7 @@ $F1::{
 	  SendEvent "{s up}"
 	  Sleep 1500
 
-    #Open Transmute
+    ;Open Transmute
 	  SendEvent "{LButton Down}"
 	  Sleep 50
 	  SendEvent "{LButton up}"
